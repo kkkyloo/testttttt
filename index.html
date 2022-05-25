@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media = "screen and (color)" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Компьютерный клуб</title>
+  </head>
+  <body>
+    <div class="aboba">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">О клубе</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Фото</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <div class="one">
+        АБОНИМЕНТ В КИБЕР-КЛУБ
+      </div>
+      <div class="two">на месяц
+
+      </div>
+      <div class="pc">
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary beginner_margin marg-start btn-lg">Оставить заявку</button>
+      </div>
+      
+
+
+
+
+    
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <div class="modal-body">
+                  <form id="form" validate method="post">
+                    <div class="text-center">
+                      <h2>Оставить заявку</h2>
+                    </div>
+                    <div class="margin_top form-group">
+                      <h6>Имя</h6>
+                      <input type="text" required class="type-1 form-control" name="name"/>
+                    </div>
+                    <div class="margin_top form-group">
+                      <h6>Email</h6>
+                      <input type="email" required class="type-1 form-control" name="email" />
+                    </div>
+                    <div class="margin_top form-group">
+                      <h6>Номер телефона</h6>
+                      <input data-pristine-pattern="/^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/" required class="type-1 form-control" name="phoneNumber"/>
+                    </div>
+                    <div class="margin_top">
+                      <button type="submit" class="btn btn-primary btn-block">Отправить</button>
+                    </div>
+                  </form>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    
+          <div class="modal fade" id="myModalSuccess">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <div class="modal-body">
+                  <form id="form" validate method="post">
+                    <div class="text-center"><h2>Успех</h2></div>
+                    <div class="margin_top"><h6 id="nameEdit"></h6></div>
+                    <div><h6>Ваша заявка оставлена!</h6></div>
+                  </form>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+      <div class="three">ИМЕННО ЗДЕСЬ ТЕБЯ ЖДУТ ЛУЧШИЕ В ГОРОДЕ СБОРКИ ИГРОВЫХ ПК</div>
+      <div class="four">это сеть киберспортивных клубов и арен. это новый подход к киберспортивному пространству. 
+        это стильный, ни на что не похожий интерьер, крутая атмосфера, возможность вкусно перекусить во время игры и отличный сервис во всем</div>
+      <div class="five">Есть возможность прийти одному или командой. Буткемпы, стримерские, турниры разного уровня</div>
+      <div class="six">БОЛЕЕ 70 КОМПЬЮТЕРОВ И 10 ИГРОВЫХ КОНСОЛЕЙ 24 ЧАСА В СУТКИ </div>
+      <div class="sl4">БЕСПЛАТНЫЙ ДОСТУП КО ВСЕМ ПОПУЛЯРНЫМ ИГРАМ</div>
+      <div class="sl44">В нашем Steam вам будет доступно более 150 различных платных и бесплатных игр</div>
+      <div class="sl5">НАШИ ПРЕИМУЩЕСТВА</div>
+      <div class="sl55"><ul>
+        <li>бесплатные горячие напитки</li>
+        <li>новейшие пк</li>
+        <li>удобные игровые кресла</li>
+        <li>бронь места для вас</li>
+        <li>доступ к лицензионным играм</li>
+      </ul></div>
+      <div class="sl6">НАШИ ТАРИФЫ</div>
+      <div class="sl66">СТАНДАРТ          &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;           ПРЕМИУМ</div>
+      <div class="sl666"><ul>
+        <li>круглосуточный доступ в клуб</li>
+        <li>возможность брони</li>
+        <li>удобные игровые кресла</li>
+        <li>бесплатные горячие напитки(2 за сеанс)</li>
+      </ul></div>     
+      <div class="sl6666"><ul>
+        <li>за вами постоянно закреплено место (по желанию)</li>
+        <li>любые бесплатные напитки(3 за сеанс)</li>
+        <li>доступ к приставкам</li>
+      </ul></div>       
+      <div class="sl7">3000 р/мес &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5500 р/мес</div>
+      <div class="sl8">КОНТАКТЫ</div>
+      <div class="sl9">ТЕЛЕФОН: 8(800)555-35-35
+        E-MAIL: BIGFLOP@MAIL.RU
+        СОЦИАЛЬНЫЕ СЕТИ:</div>
+        <div class="sl10">НАШ АДРЕС:
+          Г.РОСТОВ-НА-ДОНУ 
+          УЛ. БОЛЬШОГО ШЛЕПЫ 170</div>
+      <picture>
+      <source srcset="600.png" media="(max-width: 575px)")>
+      <source srcset="800.png" media="(max-width: 800px)")>
+      <source srcset="1920.png" media="(max-width: 1920px)")>
+      <img src="3840.png"  >
+      </picture>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js">     
+      </script>
+<script src="script.js"></script>
+
+  </body>
+</html>
+

@@ -1,0 +1,531 @@
+img{
+ max-width: 100%;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -60px;
+    border: 1px solid transparent;
+}
+
+.one
+{
+    position: absolute;
+    top: 18vw;
+    left: 8.9vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8vw;
+}
+
+.pc{
+    position: absolute;
+    top: 30.7vw;
+    left: 10vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4vw;
+}
+
+.two{
+    position: absolute;
+    top: 22.5vw;
+    left: 8.9vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw;
+}
+
+.three{
+    position: absolute;
+    top: 50vw;
+    left: 50vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    text-align: right;
+    margin-right: 6vw;
+}
+.four{
+    position: absolute;
+    top: 65vw;
+    left: 50vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+    text-align: right;
+    margin-right: 6vw;
+
+}
+
+.five{
+    position: absolute;
+    top: 80vw;
+    left: 50vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    text-align: right;
+    margin-right: 6vw;
+}
+
+.six{
+    position: absolute;
+    top: 98.5vw;
+    left: 10vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    margin-right: 6vw;
+    text-align: center;
+}
+
+.sl4{
+    position: absolute;
+    top: 166vw;
+    left: 5.6vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7vw;
+    margin-right: 39vw;
+    text-align: left;
+}
+.sl44{
+    position: absolute;
+    top: 177vw;
+    left: 5.6vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    margin-right: 46vw;
+    text-align: left;
+}
+
+.sl5{
+    position: absolute;
+    top: 207vw;
+    left: 5.6vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.2vw;
+    text-align: left;
+}
+.sl55{
+    position: absolute;
+    top: 220vw;
+    left: 5.6vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    text-align: left;
+}
+.sl6{
+    position: absolute;
+    top: 267vw;
+    left: 28vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+}
+.sl66{
+    position: absolute;
+    top: 320vw;
+    left: 13vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+}
+.sl666{
+    position: absolute;
+    top: 330vw;
+    left: 13vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    margin-right: 60vw;
+}
+.sl6666{
+    position: absolute;
+    top: 330vw;
+    left: 63vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    margin-right: 10vw;
+}
+.sl7{
+    position: absolute;
+    top: 350vw;
+    left: 19vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9vw;
+    margin-right: 10vw;
+}
+.sl8{
+    position: absolute;
+    top: 365vw;
+    left: 34vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+.sl9{
+    position: absolute;
+    top: 382vw;
+    left: 3vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+    margin-right: 61vw;
+}
+.sl10{
+    position: absolute;
+    top: 382vw;
+    left: 70vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+    margin-right: 5vw;
+}
+
+@media (max-width: 800px) { 
+    .one{
+        top: 20vw;
+        left: 7vw;
+        font-size: 7vw;
+    }
+    .two{
+        top: 42vw;
+        left: 7vw;
+        font-size: 4.7vw;
+    }
+    .kundastemen{
+        top: 33vw;
+
+    }
+    .three{
+        top: 120vw;
+        left: 7vw;
+        font-size: 5.7vw;
+    }
+    .four{
+        top: 150vw;
+        left: 7vw;
+        font-size: 3vw;
+    }
+    .five{
+        top: 179vw;
+        left: 7vw;
+        font-size: 2.2vw;
+    }
+    .six{
+        top: 224vw;
+        left: 7vw;
+        font-size: 4.5vw;
+    }
+    .sl4{
+        top: 379vw;
+        left: 12vw;
+        font-size: 4.5vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl44{
+        top: 405vw;
+        left: 12vw;
+        font-size: 3.3vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl5{
+        top: 467vw;
+        left: 12vw;
+        font-size: 7vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl55{
+        top: 499vw;
+        left: 12vw;
+        font-size: 4vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl6{
+        top: 609vw;
+        left: 11vw;
+        font-size: 9vw;
+        text-align: center;
+    }
+    .sl66{
+        top: 725vw;
+        left: 6vw;
+        font-size: 4.8vw;
+        text-align: center;
+    }
+    .sl666{
+        top: 740vw;
+        left: 6vw;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .sl6666{
+        top: 740vw;
+        left: 65vw;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-right: 5vw;
+    }
+    .sl7{
+        top: 790vw;
+        left: 10vw;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-right: 9vw;
+    }
+    .sl8{
+        top: 830vw;
+        left: 22vw;
+        font-size: 9vw;
+        text-align: center;
+        margin-right: 9vw;
+    }
+    .sl9{
+        top: 870vw;
+        left: 1vw;
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right:60vw;
+    }
+    .sl10{
+        top: 870vw;
+        left: 60vw;
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right:5vw;
+    }
+ }
+ @media (max-width: 575px) { 
+    .one{
+        top: 40vw;
+        left: 7vw;
+        font-size: 7vw;
+    }
+    .two{
+        top: 61vw;
+        left: 7vw;
+        font-size: 5vw;
+    }
+    .kundastemen{
+        top: 50vw;
+        font-size: 10vw;
+
+    }
+    .three{
+        top: 165vw;
+        left: 7vw;
+        font-size: 6.1vw;
+    }
+    .four{
+        top: 200vw;
+        left: 7vw;
+        font-size: 4vw;
+    }
+    .five{
+        top: 260vw;
+        left: 7vw;
+        font-size: 3vw;
+    }
+    .six{
+        top: 319vw;
+        left: 10vw;
+        font-size: 5.4vw;
+        margin-right: 10vw;
+
+    }
+    .sl4{
+        top: 517vw;
+        left: 12vw;
+        font-size: 6vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl44{
+        top: 557vw;
+        left: 12vw;
+        font-size: 4vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl5{
+        top: 656vw;
+        left: 12vw;
+        font-size: 7vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl55{
+        top: 699vw;
+        left: 12vw;
+        font-size: 5vw;
+        text-align: left;
+        margin-right: 10vw;
+    } 
+    .sl6{
+        top: 860vw;
+        left: 17vw;
+        font-size: 7.5vw;
+        text-align: left;
+        margin-right: 10vw;
+    }
+    .sl66{
+        top: 992vw;
+        left: 4vw;
+        font-size: 5vw;
+    }  
+    .sl666{
+        top: 1017vw;
+        left: 1vw;
+        font-size: 3vw;
+        margin-right: 69vw;
+
+    }     
+    .sl6666{
+        top: 1017vw;
+        left: 65vw;
+        font-size: 3vw;
+        margin-right: 4vw;
+    }    
+    .sl7{
+        top: 1090vw;
+        left: 10vw;
+        font-size: 2.5vw;
+        text-align: right;
+    }  
+    .sl8{
+        top: 1165vw;
+        left: 21vw;
+        font-size: 9vw;
+        text-align: right;
+    }  
+    .sl9{
+        top: 1205vw;
+        left: 3vw;
+        font-size: 4vw;
+    }  
+    .sl10{
+        top: 1205vw;
+        left: 70vw;
+        font-size: 4vw;
+    }  
+ }
+
+ .forma-vkhoda {
+    background: none;
+    color: #e89ed6;
+    display: inline-block;
+    font-size: 2.2vw;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: color .1s ease;
+    border-radius: 50px;
+  }
+
+  .forma-vkhoda.forma-vkhoda-big {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+  }
+  .forma-vkhoda-close {
+    color: #e41434;
+    font-size: 35px;
+    text-decoration: none;
+    padding:10px;
+    position: absolute;
+    right: 7px;
+    top: 0;
+  }
+  .forma-vkhoda-close:hover {
+    color: #292828;
+  }
+  .povekunos:before {
+    content: "";
+    display: none;
+    background: rgba(19, 17, 18, 0.58);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .discovered:before {
+    display: block;
+  }
+  .discovered .povekunos-undes {
+    transform: translate(0, 0);
+    top: 20%;
+  }
+  .povekunos-undes {
+    background: #fefefe;
+    border: #292828 solid 0px;
+    border-radius: 5px;
+    margin-left: -198px;
+    text-align:center;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    z-index: 11;
+    width: 330px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    transform: translate(0, -500%);
+    transition: transform 0.3s ease-out;
+  }
+  .povekunos-body {
+    padding: 18px;
+  }
+  .povekunos-body input {
+    width: 215px;
+    padding: 10px;
+    border: 1px solid #b1afaf;
+    color: #524c4c;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+  .povekunos-header,
+  .povekunos-footer {
+    padding: 10px 20px;
+  }
+  .povekunos-header {
+    border-bottom: #e4dddd solid 1px;
+  }
+  .povekunos-header h2 {
+    font-size: 20px;
+  }
+
+  input {
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+}
+.type-1 {
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+.type-1:hover {
+    border: 1px solid #aaa;
+}
+.margin_top{
+    margin-top: 3vh;
+}
